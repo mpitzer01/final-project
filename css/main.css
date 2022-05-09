@@ -1,6 +1,16 @@
 /* GENERAL STUFF BEGIN */
 body{
-  font-family: Verdana, sans-serif;
+  font-family: "Josefin Sans", Verdana, sans-serif;
+}
+
+/* REMOVE LINK UNDERLINING */
+a {
+  text-decoration: none;
+}
+
+/* REMOVE BULLET POINTS */
+ul {
+  list-style: none;
 }
 
 /* IMAGES ARE 100% OF THE CONTAINER */
@@ -18,7 +28,63 @@ img {
 /* NAVIGATION AREA END */
 
 /* TABLE AREA BEGIN */
+}
+table.Table {
+  width: 100%;
+  background-color: #8d8888;
+  border-collapse: collapse;
+  border-width: 8px;
+  border-color: #c0a51c;
+  border-style: solid;
+  text-align: center;
+  color: #ffffff;
+}
 
+table.Table td, table.Table th {
+  border-width: 8px;
+  border-color: #c0a51c;
+  border-style: solid;
+  padding: 8px;
+}
+
+table.Table thead {
+  background-color: #041e42;
+}
+table a,
+table a:link,
+table a:visited {
+color: #ffffff;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+p.thick {
+font-weight: bold;
+}
+
+table.Table {
+  width: 100%;
+  background-color: #041e42;
+  border-collapse: collapse;
+  border-width: 8px;
+  border-color: #c0a51c;
+  border-style: solid;
+  color: #ffffff;
+}
+
+table.Table td, table.Table th {
+  border-width: 8px;
+  border-color: #c0a51c;
+  border-style: solid;
+  padding: 8px;
+}
+
+table.Table thead {
+  background-color: #041e42;
+}
 /* TABLE AREA END */
 
 /* FORM BEGIN */
