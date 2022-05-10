@@ -1,0 +1,33 @@
+/* NAV */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* TABLE */
+#table{
+    height: 370px; 
+    padding: 3px 28px;
+}
+
+#table::before{
+    height: 480px; 
+}
+
+#table p{
+    font-size: 13px;
+}
+
+#table{
+    flex-direction: column;
+}
+
+#table .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
