@@ -13,3 +13,9 @@ Contact Form that emails form contents
 Responsive header text
 Media Query #1 - max screen size 1360px
 Media Query #1 - screen max size 768px
+
+First Commit was basic code to begin the site.
+Second Commit added favicons, stylesheet called in, google font called in, table was added and hyperlinks were styled.
+Third Commit added header, footer, navigation and script called in for the nav bar.
+Fourth Commit added a form for my support page.
+Fifth Commit added a background image to each page and called in a responsive stylesheet.
