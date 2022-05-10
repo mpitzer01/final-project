@@ -311,7 +311,10 @@ table.Table thead {
 /* TABLE AREA END */
 
 /* FORM BEGIN */
-
+form > input, form > textarea, form > label {
+	display: block;
+	margin-bottom: 5px;
+  }
 /* FORM END */
 
 /* FOOTER AREA BEGIN */
