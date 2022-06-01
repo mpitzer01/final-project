@@ -10,24 +10,24 @@
 }
 
 /* TABLE */
-#table {
+.Table {
     height: 370px;
     padding: 3px 28px;
 }
 
-#table::before {
+.Table::before {
     height: 480px;
 }
 
-#table p {
+.Table p {
     font-size: 13px;
 }
 
-#table {
+.Table {
     flex-direction: column;
 }
 
-#table .box {
+.Table .box {
     padding: 14px;
     margin: 2px 0px;
     margin-bottom: 20px;
