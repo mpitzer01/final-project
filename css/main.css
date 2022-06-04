@@ -14,11 +14,6 @@ ul {
   list-style: none;
 }
 
-/* IMAGES ARE 100% OF THE CONTAINER */
-
-img {
-  max-width: 100%;
-}
 
 /* GENERAL STUFF END */
 
@@ -32,12 +27,10 @@ header {
 }
 
 header h1 {
-  text-align: center;
   font-family: "Josefin Sans", Verdana, sans-serif;
-  /* MAKES HEADER TEXT RESPONSIVE */
-  font-size: Nvw "WELCOME TO THE NSSAR LIBRARY INTRANET"
-    padding: 60px;
   font-size: 50px;
+  text-align: center;
+  padding: .65em;
 }
 
 /* HEADER AREA END */
@@ -48,7 +41,7 @@ header h1 {
   padding: 0;
 }
 
-#ham {
+#hamburger {
   color: #c0a51c;
 }
 
